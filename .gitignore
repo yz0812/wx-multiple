@@ -29,3 +29,4 @@ Thumbs.db
 
 # local runtime files
 *.log
+.claude
