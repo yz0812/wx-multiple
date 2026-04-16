@@ -1,6 +1,6 @@
 [package]
 name = "weixin_multi_launcher"
-version = "0.1.1"
+version = "0.1.0"
 description = "Weixin multi launcher built with Tauri"
 authors = ["Claude Code"]
 license = ""
