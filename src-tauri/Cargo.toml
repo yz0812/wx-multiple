@@ -1,0 +1,23 @@
+[package]
+name = "weixin_multi_launcher"
+version = "0.1.0"
+description = "Weixin multi launcher built with Tauri"
+authors = ["Claude Code"]
+license = ""
+repository = ""
+default-run = "weixin_multi_launcher"
+edition = "2021"
+rust-version = "1.77.2"
+
+[lib]
+name = "weixin_multi_launcher_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.5.6", features = [] }
+
+[dependencies]
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.149"
+tauri = { version = "2.10.3", features = [] }
+tauri-plugin-dialog = "2.7.0"

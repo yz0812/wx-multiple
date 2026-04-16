@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+
+# frontend build output
+dist/
+.vite/
+
+# tauri / rust build output
+src-tauri/target/
+src-tauri/gen/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment files
+.env
+.env.*
+!.env.example
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+
+# local runtime files
+*.log
